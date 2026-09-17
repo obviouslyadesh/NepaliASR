@@ -8,7 +8,7 @@ import csv
 
 # CHANGE THIS to the folder containing:
 # asr_nepali_0, asr_nepali_1, ..., asr_nepali_15
-DATA_ROOT = Path("/Users/adeshbohara/Desktop/NepaliASR/asr_nepali_data")
+DATA_ROOT = Path("/Users/nishantsaud/Downloads/NepaliASR/asr_nepali_data")
 
 OUTPUT_FILE = Path("manifests/audio_index.csv")
 

@@ -21,7 +21,7 @@ REPORT_PATH = REPORT_DIR / "audio_validation.csv"
 EXPECTED_SAMPLE_RATE = 16000
 EXPECTED_CHANNELS = 1
 
-# Sanity-check duration limits
+# Sanity-check duratigiton limits
 MIN_DURATION = 0.1
 MAX_DURATION = 30.0
 
@@ -143,8 +143,8 @@ with open(
         # ----------------------------------------------------
         # RESOLVE RELATIVE PATH
         # ----------------------------------------------------
-        audio_path = Path(audio_path_string)
         
+
 
         if not audio_path.is_absolute():
             audio_path = PROJECT_ROOT /"asr_nepali_data" / audio_path
